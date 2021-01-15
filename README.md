@@ -2,24 +2,6 @@
 ![Python application test with Github Actions](https://github.com/Haneen-97/udacity-azure-cicd/workflows/Python%20application%20test%20with%20Github%20Actions/badge.svg)
 
 
-This is my submission for the 'Building a CI/CD Pipeline' project as part of the 'DevOps Engineer for Microsoft Azure' nanodegree program from [Udacity](https://udacity.com).
-
-This project contains a python application that is designed to predict housing prices in Boston (I did not create the python app myself). This repo will enable you to:
-- Deploy the app in Azure CloudShell
-- Deploy the app as an Azure App Service
-
-Any commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps, and the updated code is also automatically tested in Azure DevOps and deployed to the Azure App Service. 
-
-Here is an architectural diagram:
-![architectural-diagram.png](architectural-diagram.png)
-
-A [Trello](https://trello.com/b/CjgPIZxU/building-a-ci-cd-pipeline) board has been created to keep track of tasks to be completed.
-
-A [spreadsheet](project-schedule.xlsx) has been created to manage the project schedule.
-
-See [here](https://youtu.be/FHRAl93XgG8) for a YouTube video demonstrating the project.
-
-
 # Overview
 
 This is my submission for the 'Building a CI/CD Pipeline' project as part of the 'DevOps Engineer for Microsoft Azure' nanodegree program from [Udacity](https://udacity.com).
@@ -29,14 +11,15 @@ This project contains a python application that is designed to predict housing p
 - Deploy the app as an Azure App Service
 
 Any commits to the GitHub repo trigger automated code testing using GitHub Actions. A pipeline has been created in Azure DevOps, and the updated code is also automatically tested in Azure DevOps and deployed to the Azure App Service. 
+
 ## Project Plan
-<TODO: Project Plan
 
 A [Trello](https://trello.com/b/xtbJ4xMa/building-a-ci-cd-pipeline-udacity-project) board has been created to keep track of tasks to be completed.
 
 A [spreadsheet](project-schedule-h.xlsx) has been created to manage the project schedule.
 
 ## Instructions
+
 Here is an architectural diagram:
 ![arch diagram](https://user-images.githubusercontent.com/43758373/104777577-f016dc00-578c-11eb-82f7-f6da3ba19f5c.PNG)
 
@@ -73,26 +56,11 @@ make all
 ![make-all4](https://user-images.githubusercontent.com/43758373/104778682-d37ba380-578e-11eb-836d-8e9bc715f55c.PNG)
 
 
-Start the application in the local environment:
-```
-python app.py
-```
-
-Open a separate Cloud Shell and test that the app is working:
-```
-./make_predict_azure_app.sh
-```
-
-The output should match the below:
-
-![screenshot-prediction](https://user-images.githubusercontent.com/43758373/104778892-2ce3d280-578f-11eb-8441-51b95f34f267.PNG)
-
-
 ## Deploy the app to an Azure App Service
 
-Create an App Service in Azure. In this example the App Service is called rob-udacity-webapp and the resource group is called rob-udacity-project:
+Create an App Service in Azure. In this example the App Service is cicd-nanodegree-haneen and the resource group is flask-app:
 ```
-az webapp up -n rob-udacity-webapp -g rob-udacity-project
+az webapp up -n cicd-nanodegree-haneen -g flask-app
 ```
 
 Next, create the pipeline in Azure DevOps. More information on this process can be found [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/ecosystems/python-webapp?view=azure-devops&WT.mc_id=udacity_learn-wwl). The basic steps to set up the pipeline are:
