@@ -107,8 +107,7 @@ in the browser bar type: https://<app-name>.scm.azurewebsites.net/api/logs/docke
 > 
 
 ## Enhancements
-
-Currently, there is only a single branch in GitHub. In the future it would be good to create multiple branches, so code can initially be tested and deployed in a staging environment. If it works correctly in the staging environment the changes could then be merged into the production branch and the code deployed into the production environment.
+Imporving the model performance.
 
 ## Demo 
 
