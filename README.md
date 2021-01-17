@@ -6,7 +6,7 @@
 
 This is my submission for the 'Building a CI/CD Pipeline' project as part of the 'DevOps Engineer for Microsoft Azure' nanodegree program from [Udacity](https://udacity.com).
 
-This project contains a python application that is designed to predict housing prices in Boston (I did not create the python app myself). This repo will enable you to:
+This project contains a python application that is designed to predict housing prices in Boston (the model is already created by the instructor). This repo will enable you to:
 - Deploy the app in Azure CloudShell
 - Deploy the app as an Azure App Service
 
@@ -107,7 +107,7 @@ Currently, there is only a single branch in GitHub. In the future it would be go
 
 ## Demo 
 
-A [Demo](https://drive.google.com/file/d/15DRL9vGu7LRCz6VwmnbPXcd1ZCHZJiuN/view?usp=sharing)
+A [Demo](https://drive.google.com/file/d/18IpN21zRHUVNChA9bxFqhomfID07415D/view?usp=sharing)
 
 
 
