@@ -58,6 +58,8 @@ make all
 ![make-all3](https://user-images.githubusercontent.com/43758373/104778685-d4143a00-578e-11eb-924d-5c4c813f2f01.PNG)
 ![make-all4](https://user-images.githubusercontent.com/43758373/104778682-d37ba380-578e-11eb-836d-8e9bc715f55c.PNG)
 
+A successful GitHub build test 
+![screenshot-build-success-actiongithub](https://user-images.githubusercontent.com/43758373/104843616-9ae9e000-58dc-11eb-8b4b-9e1a2628cd4d.PNG)
 
 ## Deploy the app to an Azure App Service
 
@@ -107,7 +109,7 @@ in the browser bar type: https://<app-name>.scm.azurewebsites.net/api/logs/docke
 > 
 
 ## Enhancements
-Imporving the model performance.
+Improving the model performance.
 
 ## Demo 
 
