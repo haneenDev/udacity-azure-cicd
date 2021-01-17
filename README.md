@@ -111,6 +111,32 @@ in the browser bar type: https://<app-name>.scm.azurewebsites.net/api/logs/docke
 ## Enhancements
 Improving the model performance.
 
+## Load testing
+
+We can use locust to do a load test against our application locally. 
+
+Install locust:
+```
+pip install locust
+```
+Ensure the app is running:
+```
+python app.py
+```
+
+Start locust:
+```
+locust
+```
+Open a browser and go to [http://localhost:8089](http://localhost:8089). Enter the total number of users to simulate, spawn rate, set the host to your <app-service>, and click Start Swarming:
+
+![screenshot-loadtest](https://user-images.githubusercontent.com/43758373/104845357-0be1c580-58e6-11eb-99f6-dfdb58850aa1.PNG)
+
+You can then watch the load test:
+
+![screenshot-locust](https://user-images.githubusercontent.com/43758373/104845329-e1900800-58e5-11eb-9947-c5effbcfcea3.png)
+
+
 ## Demo 
 
 A [Demo](https://drive.google.com/file/d/18IpN21zRHUVNChA9bxFqhomfID07415D/view?usp=sharing)
