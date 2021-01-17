@@ -9,10 +9,10 @@ This project is submitted by me Haneen, a part for earning a nanodegree of Build
 This project consists of flask application that is developed to predict housing prices in Boston (the model is already created by the instructor). 
 
 This repositry demonstrate:
-1- Deploying the app in Azure CloudShell
-2- Deploying the app as a web server using Azure App Service.
+- Deploying the app in Azure CloudShell
+- Deploying the app as a web server using Azure App Service.
 
-Once anything has been changed (commits) in the github repositry, it will trigger an action for test automation (CI). A pipeline has been created using Azure DevOps tool, and also any changes will be tested in the pipeline and deploed to app service. All these steps are explianed well in the demo below. 
+Once anything has been changed (commits) in the github repositry, it will trigger an action for test automation (CI). A pipeline has been created using Azure DevOps tool, and also any changes will be tested in the pipeline and deployed to app service. All these steps are explianed well in the demo below. 
  
 
 ## Project Plan
