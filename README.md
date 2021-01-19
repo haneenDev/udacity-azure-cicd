@@ -139,7 +139,7 @@ You can then watch the load test:
 
 ## Demo 
 
-A [Demo](https://drive.google.com/file/d/18IpN21zRHUVNChA9bxFqhomfID07415D/view?usp=sharing)
+A [Demo]
 
 
 
